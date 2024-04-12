@@ -1,5 +1,9 @@
 #' emtest.exp
 #'
+#' The boxplot compactly displays the distribution of a continuous variable.
+#' It visualises five summary statistics (the median, two hinges
+#' and two whiskers), and all "outlying" points individually.
+
 #' @description This function computes the EM-test statistic and the p-value under the null hypothesis H0:m=m0.
 #' @param x The input data that can either be a vector or a matrix with the 1st column being the observed values
 #' and the 2nd column being the corresponding frequency. 
